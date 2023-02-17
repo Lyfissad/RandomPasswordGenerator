@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    font-family: karla;
+     background-color: #1F2937;
+}
+
+
+
+#maindiv{
+    background-color: #1F2937;
+    display: block; 
+    height: 550px;
+    width: 550px;
+     
+}
+
+#heading{
+    margin-left: 55px;
+    width: 354px;
+    height: 80px;
+    margin-top: 120px;  
+}
+
+
+
+#whitehead{
+    color: white;
+    margin-top: -20px
+}
+
+
+
+#greenhead{
+    color: #4ADF86;
+    margin-top: -15px
+}
+
+#sub-head{
+    color: #D5D4D8;
+    margin-top:-10px; 
+}
+
+#generate-btn{
+    background-color: #10B981;
+    border: none;
+    color: white;
+    padding: 9px 17px 9px 17px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+hr {
+    border: 1px solid #2F3E53;
+    margin-top: 30px;
+}
+
+#outputs{
+    display: flex;
+    background-color: #1F2937;
+    margin-top: 30px; 
+    height: 60px;
+    width: 550px;
+}
+
+#passbox1{
+    background-color: #273549;
+    height: 40px;
+    width: 195px; 
+    border-radius:6px;
+    margin-right: 24px;
+    padding: 4px 15px 4px 16px;
+    cursor: pointer;
+}
+#passbox2{
+    background-color: #273549;
+    height: 40px;
+    width: 195px;
+    border-radius:6px;
+    padding: 4px 15px 4px 16px;
+    cursor: pointer; 
+}
+
+#password1-el, #password2-el{
+    color: #55F991;
+    font-family: inter;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 10px;
+    position: relative;
+    bottom: 10px;
+}
+
+
+#mySelect{
+    position: relative;
+    left: 30px;
+    top: 10px;
+    width: 150px;
+    background-color: #10B981;
+    color: white;
+    font-weight: 700;
+}
